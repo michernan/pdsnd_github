@@ -11,17 +11,7 @@ import calendar
 def get_city():
     '''Name a city'''
 
-    city = input('\nHello! Let\'s explore some US bikeshare data!\n'
-                 'Which city data would you like to see Chicago, New York, or Washington?\n').title()
-    if city == 'Chicago' or city == 'C':
-        return 'chicago.csv'
-    elif city == 'New York' or city == "N":
-        return 'new_york_city.csv'
-    elif city == 'Washington' or city == 'W':
-        return 'washington.csv'
-    else:
-        print("\nData for that city does not exist. Try again.")
-        return get_city()
+    
 
 #Get the time period
 def get_time_period():
@@ -37,7 +27,7 @@ def get_time_period():
         print("\n Data for that filter does not exist.  Let's Try Again.")
         return get_time_period()
 
-#Select out the month 
+#Select out the month
 def get_month():
     '''Convert month into string representation'''
     month = input('\nWhich month? January, February, March, April, May, or June?\n').title()
