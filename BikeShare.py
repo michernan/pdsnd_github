@@ -107,7 +107,7 @@ def popular_hour(df):
     return "Most popular hour of the day for start time: " + d.strftime("%I %p")
 
 def trip_duration(df):
-    
+
     total_trip_duration = df['Trip Duration'].sum()
     avg_trip_duration = df['Trip Duration'].mean()
     m, s = divmod(total_trip_duration, 60)
@@ -157,24 +157,6 @@ def users(df):
     return user_type_counts
 
 
-def gender(df):
-    '''Number of trips by Gender'''
-    gender_counts = df.groupby('Gender')['Gender'].count()
-    return gender_counts
-
-
-def birth_years(df):
-    '''What is the oldest birth year, the most recent birth year, and the most common birth year, where it returns
-            First value: Earliest birth year of users
-            Second value: Most recent birth year of users
-            Third value:  Most common birth year of users'''
-    earliest_birth_year = "Earliest birth year: " + str(int(df['Birth Year'].min()))
-    most_recent_birth_year = "Most recent birth year: " + str(int(df['Birth Year'].max()))
-    birth_year_counts = df.groupby('Birth Year')['Birth Year'].count()
-    sorted_birth_years = birth_year_counts.sort_values(ascending=False)
-    total_trips = df['Birth Year'].count()
-    most_common_birth_year = "Most common birth year: " + str(int(sorted_birth_years.index[0])) + " (" + str(sorted_birth_years.iloc[0]) + " trips, " + '{0:.2f}%'.format(((sorted_birth_years.iloc[0]/total_trips) * 100)) + " of trips)"
-    return [earliest_birth_year, most_recent_birth_year, most_common_birth_year]
 
 
 def display_data(df, current_line):
