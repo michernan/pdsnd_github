@@ -107,10 +107,7 @@ def popular_hour(df):
     return "Most popular hour of the day for start time: " + d.strftime("%I %p")
 
 def trip_duration(df):
-    '''What is the total trip duration and average trip duration, where
-            First value: String that says the total trip duration in years, days, hours, minutes, and seconds
-            Second value: String that says the average trip duration in hours, minutes, and seconds
-    '''
+    
     total_trip_duration = df['Trip Duration'].sum()
     avg_trip_duration = df['Trip Duration'].mean()
     m, s = divmod(total_trip_duration, 60)
