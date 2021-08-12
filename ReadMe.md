@@ -22,6 +22,14 @@ What are the counts of each user type?
 What are the counts of gender?
 What are the earliest, most recent, and most popular birth years?
 
+#Add in Section on How to Run the Program?????
+List the instructions needed to execute the program.  To be determined.  
+
+#Add in a Section on How to Use Atom and Github.  Provide links for downloading
+https://github.com/
+https://flight-manual.atom.io/getting-started/sections/installing-atom/
+
+
 #Content
 
 The contents of the project are:
