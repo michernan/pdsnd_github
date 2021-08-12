@@ -4,7 +4,7 @@
 Created on August 12, 2021, Thursday
 
 ### Project Title
-Bikeshare Project in Udacity Nano degree must make other changes here
+Bikeshare Project in Udacity Nano degree 
 
 ### Description
  This file describes the python project that analyzes the data on users transportation patterns.  The question we pose are the following:  
@@ -31,4 +31,4 @@ new_york_city.csv
 washington.csv
 
 ### Credits
-The three authors are:  Sam Lina, Roger Scott, and Linda Clarkson 
+The three authors are:  Sam Lina, Roger Scott, and Linda Clarkson
