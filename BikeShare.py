@@ -1,4 +1,4 @@
-#Let's describe what this program does
+
 
 import datetime
 import pandas as pd
