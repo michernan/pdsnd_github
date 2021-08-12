@@ -25,7 +25,7 @@ What are the counts of each user type?
 What are the counts of gender?
 What are the earliest, most recent, and most popular birth years?
 
-## Proceeds to Run the Program
+## Procedures to Run the Program
 Download the project locally on your computer. Extract the project and navigate to the project directory. Place the datasets in this directory
 
 Open either the terminal in Linux or command prompt in Windows in this location and type the following command.
