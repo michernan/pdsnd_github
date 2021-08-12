@@ -23,7 +23,7 @@ def get_city():
         print("\nData for that city does not exist. Try again.")
         return get_city()
 
-
+#Get the time period
 def get_time_period():
     '''What time period (month then day) for the data would you like to see'''
     time_period = input('\nWhich month, day?\n Type none for no filter \n').lower()
@@ -37,7 +37,7 @@ def get_time_period():
         print("\n Data for that filter does not exist.  Let's Try Again.")
         return get_time_period()
 
-
+#Select out the month 
 def get_month():
     '''Convert month into string representation'''
     month = input('\nWhich month? January, February, March, April, May, or June?\n').title()
