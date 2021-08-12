@@ -13,4 +13,4 @@ This project is related to the data: Washington, Chicago and NewYorkCity csv fil
 the files used are washington.csv, chicago.csv and newyorkcity.csv, note that only these three cities were used
 
 ### Credits
-Don't have any
+Don't have any but need to add so that it is clear what sources I used 
