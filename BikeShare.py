@@ -170,20 +170,6 @@ def birth_years(df):
     return [earliest_birth_year, most_recent_birth_year, most_common_birth_year]
 
 
-def display_data(df, current_line):
-    '''Ask user if they want to see individual data, if so return 5 lines of data, then ask again until user says no'''
-    display = input('\nWould you like to view individual trip data?'
-                    ' Type \'yes\' or \'no\'.\n')
-    display = display.lower()
-    if display == 'yes' or display == 'y':
-        print(df.iloc[current_line:current_line+5])
-        current_line += 5
-        return display_data(df, current_line)
-    if display == 'no' or display == 'n':
-        return
-    else:
-        print("\nIt is not clear if you wanted to see more data. Try again.")
-        return display_data(df, current_line)
 
 
 def statistics():
