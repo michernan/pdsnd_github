@@ -34,7 +34,7 @@ washington.csv
 
 Download the project locally on your computer. Extract the project and navigate to the project directory. Place the datasets in this directory
 
-Open either the terminal in Linux or command prompt in Windowns in this location and type the following command.
+Open either the terminal in Linux or command prompt in Windown in this location and type the following command.
 
 python bikeshare.py
 The program will execute
