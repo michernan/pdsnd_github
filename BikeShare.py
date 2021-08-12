@@ -107,7 +107,7 @@ def popular_hour(df):
     return "Most popular hour of the day for start time: " + d.strftime("%I %p")
 
 def trip_duration(df):
-    
+
     total_trip_duration = df['Trip Duration'].sum()
     avg_trip_duration = df['Trip Duration'].mean()
     m, s = divmod(total_trip_duration, 60)
@@ -121,14 +121,7 @@ def trip_duration(df):
     return [total_trip_duration, avg_trip_duration]
 
 def popular_stations(df):
-    '''What is the most popular start and end stations, where
-            First value: String stating the name of the most popular start station
-                and how many trips started from there and what percentage of trips
-                that accounted for
-            Second value: String stating the name of the most popular end station
-                and how many trips started from there and what percentage of trips
-                that accounted for
-    '''
+
     start_station_counts = df.groupby('Start Station')['Start Station'].count()
     end_station_counts = df.groupby('End Station')['End Station'].count()
     sorted_start_stations = start_station_counts.sort_values(ascending=False)
