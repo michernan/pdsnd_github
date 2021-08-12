@@ -279,7 +279,7 @@ def statistics():
     # Display Raw data of five lines of data at a time if user specifies that they would like to
     display_data(filtered_df, 0)
 
-
+#RESTART THE PROGRAM OR ENDS THE PROGRAM
     def restart_question():
         '''Will restart the program based on the user's input'''
         restart = input('\nWould you like to restart? Type \'yes\' or \'no\'. (If no it ends the program.)\n')
