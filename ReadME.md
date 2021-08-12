@@ -1,7 +1,7 @@
 >**Note**: Please **fork** the current Udacity repository so that you will have a **remote** repository in **your** Github account. Clone the remote repository to your local machine. Later, as a part of the project "Post your Work on Github", you will push your proposed changes to the remote repository in your Github account.
 
 ### Date created
-Created on August 12, 2021, Thursday (today)
+Created on August 12, 2021, Thursday
 
 ### Project Title
 Bikeshare Project in Udacity Nano degree must make other changes here
@@ -13,4 +13,4 @@ This project is related to the data: Washington, Chicago and NewYorkCity csv fil
 the files used are washington.csv, chicago.csv and newyorkcity.csv, note that only these three cities were used
 
 ### Credits
-Have done a lot of google searches, too many to list.   I need to keep better track of these so that I can go back and use the same sources.  
+Don't have any
