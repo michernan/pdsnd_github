@@ -4,7 +4,7 @@
 Created on August 12, 2021, Thursday
 
 ### Project Title
-Bikeshare Project in Udacity Nano degree 
+Bikeshare Project in Udacity Nano degree
 
 ### Description
  This file describes the python project that analyzes the data on users transportation patterns.  The question we pose are the following:  
@@ -29,6 +29,15 @@ You can get the dataset for this project from this location. It contains data fo
 chicago.csv
 new_york_city.csv
 washington.csv
+
+# How to Run the Python Program
+
+Download the project locally on your computer. Extract the project and navigate to the project directory. Place the datasets in this directory
+
+Open either the terminal in Linux or command prompt in Windowns in this location and type the following command.
+
+python bikeshare.py
+The program will execute
 
 ### Credits
 The three authors are:  Sam Lina, Roger Scott, and Linda Clarkson
