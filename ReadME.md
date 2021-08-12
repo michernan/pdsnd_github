@@ -17,6 +17,9 @@ What is the most popular trip?
 What are the counts of each user type?
 What are the counts of gender?
 What are the earliest, most recent, and most popular birth years?
+What city has the most users?
+What city has the least users?
+What is the average cost of the evening versus the morning trips?  
 
 
 #Content
