@@ -1,3 +1,8 @@
+#Created August 12, 2021
+#Author Marilyn Ibarra-Caton
+#BikeShare Project on Udacity
+
+
 import datetime
 import pandas as pd
 import calendar
@@ -29,7 +34,7 @@ def get_time_period():
     elif time_period == 'none' or time_period == 'n':
         return ['none', 'no filter']
     else:
-        print("\n Data for that filter does not exist.  Try Again.")
+        print("\n Data for that filter does not exist.  Let's Try Again.")
         return get_time_period()
 
 
@@ -151,31 +156,6 @@ def popular_trip(df):
     total_trips = df['Start Station'].count()
     return "Most popular trip: " + "\n  Start station: " + str(sorted_trip_stations.index[0][0]) + "\n  End station: " + str(sorted_trip_stations.index[0][1]) + "\n  (" + str(sorted_trip_stations[0]) +  " trips, " + '{0:.2f}%'.format(((sorted_trip_stations[0]/total_trips) * 100)) + " of trips)"
 
-
-def users(df):
-    '''Number of trips by user type'''
-    user_type_counts = df.groupby('User Type')['User Type'].count()
-    return user_type_counts
-
-
-def gender(df):
-    '''Number of trips by Gender'''
-    gender_counts = df.groupby('Gender')['Gender'].count()
-    return gender_counts
-
-
-def birth_years(df):
-    '''What is the oldest birth year, the most recent birth year, and the most common birth year, where it returns
-            First value: Earliest birth year of users
-            Second value: Most recent birth year of users
-            Third value:  Most common birth year of users'''
-    earliest_birth_year = "Earliest birth year: " + str(int(df['Birth Year'].min()))
-    most_recent_birth_year = "Most recent birth year: " + str(int(df['Birth Year'].max()))
-    birth_year_counts = df.groupby('Birth Year')['Birth Year'].count()
-    sorted_birth_years = birth_year_counts.sort_values(ascending=False)
-    total_trips = df['Birth Year'].count()
-    most_common_birth_year = "Most common birth year: " + str(int(sorted_birth_years.index[0])) + " (" + str(sorted_birth_years.iloc[0]) + " trips, " + '{0:.2f}%'.format(((sorted_birth_years.iloc[0]/total_trips) * 100)) + " of trips)"
-    return [earliest_birth_year, most_recent_birth_year, most_common_birth_year]
 
 
 def display_data(df, current_line):
