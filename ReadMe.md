@@ -4,17 +4,34 @@
 Created on August 12, 2021, Thursday
 
 ### Project Title
-Bikeshare Project in Udacity Nano degree
+Bikeshare Project in Udacity Nano degree To Find Descriptive Statistics On Users Information
 
 ### Files used
-The files used are washington.csv, chicago.csv and newyorkcity.csv, note that only these three cities were used
+The three files used are washington.csv, chicago.csv and newyorkcity.csv.  They contain information on user type, start time, station name, gender of user, and birthdate of user.  
 
 
 ### Description
-This project is related to the data: Washington, Chicago and New York City csv files. The file describes the statistics about users travel patterns.  Here we should put more description based on the gender statistics, user type and most popular station information.  This information should be broken down by month and or day.
+ This file describes the python project that analyzes the data on users transportation patterns.  The question we pose are the following:  
+What is the most popular month?
+What is the most popular day of week?
+What is the most popular hour of day?
+What is the total trip duration and average trip duration?
+What is the most popular start station and most popular end station?
+What is the most popular trip?
+What are the counts of each user type?
+What are the counts of gender?
+What are the earliest, most recent, and most popular birth years?
 
-##MERGE THIS FILE WITH ANOTHER Project
-List the name of the other project here:  
+#Content
+
+The contents of the project are:
+
+bikeshare.py - The main file to run this project
+You can get the dataset for this project from this location. It contains data for three cities.
+
+chicago.csv
+new_york_city.csv
+washington.csv
 
 ### Credits
 Have done a lot of google searches, too many to list.   I need to keep better track of these so that I can go back and use the same sources.  A few websites are from Udacity.
